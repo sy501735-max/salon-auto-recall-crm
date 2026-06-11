@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "salon-auto-recall-crm"
+version = "1.0.0"
+description = "미용실 고객 자동 재방문 유도 CRM 시스템 - Salon customer retention automation"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+keywords = ["salon", "crm", "retention", "automation", "beauty", "sms", "recall"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Office/Business :: Scheduling",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.optional-dependencies]
+ai = ["openai>=1.0.0"]
+dev = ["pytest>=7.0", "pytest-cov"]
+
+[project.scripts]
+salon-crm = "src.main:main"
+
+[project.urls]
+Homepage = "https://github.com/sy501735-max/salon-auto-recall-crm"
+Repository = "https://github.com/sy501735-max/salon-auto-recall-crm"
+Issues = "https://github.com/sy501735-max/salon-auto-recall-crm/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
