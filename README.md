@@ -49,3 +49,10 @@ This project helps automate these repetitive tasks using AI.
 ## License
 
 MIT
+
+## Usage
+
+Run the application:
+
+```bash
+python src/main.py
