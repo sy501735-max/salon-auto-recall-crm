@@ -1,15 +1,51 @@
-# Salon Auto Recall CRM
+# AI Business Growth Automation
 
-An open-source customer retention automation system
-for beauty salons and barbershops.
+AI-powered customer retention and marketing automation toolkit
+for beauty salons, local businesses, creators, and small teams.
+
+## Why
+
+Small businesses often struggle with:
+
+- Customer retention
+- Follow-up campaigns
+- Content creation
+- Marketing consistency
+
+This project helps automate these repetitive tasks using AI.
 
 ## Features
 
+### Customer Retention
+
 - Customer revisit analysis
-- Retention campaign generation
-- CSV customer import
-- Automated reminder workflow
+- Customer segmentation
+- Automated recall campaigns
+- SMS message generation
 
-## Purpose
+### Social Media Automation
 
-Help salon owners improve customer retention through automation.
+- AI content generation
+- Hashtag generation
+- Social media templates
+- Marketing workflow automation
+
+## Example Use Cases
+
+- Beauty salons
+- Barbershops
+- Local service businesses
+- Creators
+- Marketing agencies
+
+## Roadmap
+
+- [x] Customer retention engine
+- [x] Social content generator
+- [ ] Multi-platform publishing
+- [ ] Analytics dashboard
+- [ ] CRM integrations
+
+## License
+
+MIT
